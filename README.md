@@ -1,4 +1,4 @@
-# Quadcopter Drone Build - Step-by-Step Guide 🛁
+# Quadcopter Drone Build - Step-by-Step Guide 
 
 ## Introduction
 
