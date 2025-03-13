@@ -114,7 +114,7 @@ Before starting, gather the following components:
 
 ## Achievements
 
-We are proud to announce that our quadcopter drone project **won 1st prize among 200 participants** at a prestigious **drone-building workshop at APPRoV IIIT Bombay Tech Fest**. Competing against a large pool of talented individuals, our team demonstrated innovation, technical expertise, and outstanding teamwork. This achievement highlights our dedication to drone technology and its practical applications.
+We are proud to announce that our quadcopter drone project **won 1st prize among 200 participants** at a prestigious **drone-building workshop at APROOV IIIT KOTTAYAM Tech Fest**. Competing against a large pool of talented individuals, our team demonstrated innovation, technical expertise, and outstanding teamwork. This achievement highlights our dedication to drone technology and its practical applications.
 
 ---
 
