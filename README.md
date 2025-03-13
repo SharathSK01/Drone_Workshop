@@ -1,12 +1,15 @@
-# Quadcopter Drone Build - Step-by-Step Guide 🚁
+# Quadcopter Drone Build - Step-by-Step Guide 🛁
 
 ## Introduction
+
 A **quadcopter** is an **unmanned aerial vehicle (UAV)** or **drone** with four rotors, each powered by an individual motor and propeller. It is also called a **quadrotor helicopter** or **quadrotor** and belongs to a more general class of aerial vehicles known as **multicopters or multirotors**. Quadcopters can be manually controlled via a remote transmitter or programmed for **autonomous flight** using GPS and flight controllers.
 
 ## Why Quadcopters?
+
 Quadcopters are popular due to their **stable flight performance**, ease of control, and wide range of applications. Compared to **fixed-wing drones**, quadcopters offer **hovering capabilities**, making them highly versatile for surveillance, aerial photography, and more.
 
 ### Applications of Quadcopters
+
 - **Aerial Photography & Videography** – Used in filmmaking, sports broadcasting, and content creation.
 - **Surveillance & Security** – Deployed for law enforcement, military, and private security.
 - **Agriculture & Land Surveys** – Helps in precision farming, crop health monitoring, and soil assessment.
@@ -16,9 +19,11 @@ Quadcopters are popular due to their **stable flight performance**, ease of cont
 - **Advanced Air Mobility (AAM)** – Plays a key role in the future of **urban air transportation**.
 
 ## Principles of Quadcopter Flight
+
 Quadcopter flight is based on **Newton's Third Law of Motion**, which states that *for every action, there is an equal and opposite reaction*. The quadcopter’s propellers push air downwards, generating an opposite force known as **thrust**, which lifts the quadcopter against gravity.
 
 ### Stability & Control
+
 - **Thrust generation**: Larger propellers and faster rotation create more lift.
 - **Balanced rotation**: Two diagonal propellers rotate clockwise (CW) and the other two counterclockwise (CCW), canceling out rotational torque.
 - **Yaw, Pitch, and Roll control**: Controlled by varying the speed of individual motors.
@@ -27,17 +32,22 @@ Quadcopter flight is based on **Newton's Third Law of Motion**, which states tha
 ---
 
 ## Table of Contents
+
 - [Materials Required](#materials-required)
 - [Step-by-Step Assembly](#step-by-step-assembly)
 - [Programming & Calibration](#programming--calibration)
 - [Testing & Troubleshooting](#testing--troubleshooting)
 - [Final Flight & Performance](#final-flight--performance)
 - [Acknowledgments](#acknowledgments)
+- [Achievements](#achievements)
+- [Copyright Notice](#copyright-notice)
 
 ---
 
 ## Materials Required
+
 Before starting, gather the following components:
+
 - **Quadcopter Frame** – Sturdy and lightweight (carbon fiber recommended)
 - **Brushless Motors** – 4x (CW and CCW pairs)
 - **Electronic Speed Controllers (ESCs)** – 4x
@@ -53,72 +63,68 @@ Before starting, gather the following components:
 ---
 
 ## Step-by-Step Assembly
+
 ### Step 1: Assembling the Frame
+
 - Attach the arms and central plates using screws and stand-offs.
 - Ensure the frame is structurally sound and secure.
 
 ### Step 2: Mounting the Motors
+
 - Secure the **brushless motors** onto the quadcopter frame arms.
 - Verify the correct positioning: Two **CW motors** and two **CCW motors** diagonally opposite each other.
 
 ### Step 3: Installing the ESCs
+
 - Solder the **ESCs** to each motor.
 - Connect the **ESC signal wires** to the **flight controller**.
 - Route and secure wires neatly to avoid entanglements.
 
 ### Step 4: Attaching the Flight Controller
+
 - Mount the **flight controller** on a vibration-dampening pad.
 - Ensure correct orientation (arrow facing forward).
-- Connect the **ESC signal wires** and **power input**.
+- Connect the **ESC signal wires** and **battery input**.
 
 ### Step 5: Connecting the Power System
+
 - Solder the **PDB to the battery input** and **ESC power wires**.
 - Verify all connections using a multimeter before connecting the **LiPo battery**.
 
----
+### Step 6: Connecting and Calibrating Components
 
-## Programming & Calibration
-### Step 6: Setting Up the Transmitter & Receiver
-- Bind the **transmitter and receiver**.
-- Configure the **throttle, yaw, pitch, and roll settings**.
+- **Transmitter & Receiver**: Bind and configure **throttle, yaw, pitch, and roll**.
+- **Flight Controller Configuration**: Use **Betaflight/Cleanflight**.
+- **PID Tuning**: Adjust for smoother flight stability.
+- **Failsafe Configuration**: Ensure emergency landings work correctly.
 
-### Step 7: Configuring the Flight Controller
-- Use **Betaflight/Cleanflight** to set up motor directions and PIDs.
-- Calibrate the **gyroscope, accelerometer, and magnetometer**.
-- Enable **failsafe settings** for emergency landings.
+### Step 7: Pre-Flight Testing & Troubleshooting
 
-### Step 8: GPS & Autonomous Flight (Optional)
-- Configure **GPS modules** for navigation.
-- Enable **Return-to-Home (RTH)** feature if available.
-
----
-
-## Testing & Troubleshooting
-### Step 9: Pre-Flight Checklist
-- Check propeller **alignment and orientation**.
-- Ensure all screws and fasteners are tight.
+- Verify motor directions and propeller placement.
 - Test **motor arming and disarming** sequences.
+- Check for vibrations and optimize settings.
 
-### Step 10: Initial Flight Test
-- Test hover stability in a controlled area.
-- Adjust **PID tuning** for better flight control.
-- Monitor battery **voltage and current draw**.
+### Step 8: Final Flight & Fine-Tuning
 
-### Step 11: Debugging & Fine-Tuning
-- Adjust **throttle curves and sensitivity**.
-- Resolve any vibration or motor desync issues.
+- Take off and hover test.
+- Adjust sensitivity, throttle curves, and response times.
+- Perform safety tests and flight endurance tests.
 
 ---
 
-## Final Flight & Performance
-After rigorous testing and tuning, the quadcopter was successfully assembled and flown. This project showcases the importance of **precise assembly, tuning, and flight stability**, leading to an efficient and smooth-flying drone.
+## Achievements
+
+We are proud to announce that our quadcopter drone project **won 1st prize among 200 participants** at a prestigious **drone-building workshop at APPRoV IIIT Bombay Tech Fest**. Competing against a large pool of talented individuals, our team demonstrated innovation, technical expertise, and outstanding teamwork. This achievement highlights our dedication to drone technology and its practical applications.
 
 ---
 
 ## Acknowledgments
-Special thanks to the **drone-building community** and mentors who provided guidance and resources. This project was an exciting learning experience in **aerodynamics, electronics, and control systems**.
+
+Special thanks to **TECHNICAL CLUB OF IIIT KOTTAYAM** for organizing the competition and providing an excellent platform for learning and innovation. Also, immense gratitude to my team members for their hard work and dedication in making this project a success.
 
 ---
 
-## Repository Usage
-This repository serves as a reference for quadcopter enthusiasts. Feel free to contribute or improve upon the documented build steps!
+## Copyright Notice
+
+**© 2025. All Rights Reserved.**  
+This document, including its contents, images, and descriptions, is the intellectual property of the authors. Unauthorized reproduction or distribution of this material is strictly prohibited without prior written permission.
